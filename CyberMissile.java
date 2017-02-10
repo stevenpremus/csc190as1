@@ -18,7 +18,7 @@ public class CyberMissile {
         // TODO code application logic here
         FlightSystem fs = new FlightSystem();
         Warhead wh = new Warhead();
-        fs.setTarget("The Moon!");
+        fs.setTarget("The Moon");
         wh.selfDestruct();
     }
     
